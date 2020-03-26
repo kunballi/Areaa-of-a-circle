@@ -1,0 +1,5 @@
+#area of a circle
+inp=input('Enter the radius of a circle ')
+inps=int(inp)
+area=3.142*(inps**2)
+print('Area of a circle is: ',area)
