@@ -1,0 +1,22 @@
+def get_grades():
+    first_term=input('Enter first term score: ')
+    second_term=input('Enter second term score: ')
+    Third_term=input('Enter Third term score: ')
+    grades=(first_term,second_term,Third_term)
+
+    return grades
+
+grades= get_grades()
+print(grades)
+print(grades[0])
+
+import string
+import random
+def gen_password():
+    letters=string.ascii_letters
+    lenght=7
+    random_password=''.join(random.choice(letters)for i in range(lenght))
+
+    return random_password
+random_password=gen_password()
+print(random_password)
